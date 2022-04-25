@@ -1,0 +1,160 @@
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    height:80px;
+    padding:10px;
+    display:fixed;
+    opacity:0.7;
+    background-color:yellow;
+  }
+  #nav-bar{
+    display:flex;
+    flex-direction:row;
+    margin-right:50px;
+    margin-left:25px;
+    font-weight:bold;
+    justify-content:flex-end;
+    top: 0;
+    z-index: 10;
+  }
+  #nav-bar ul{
+    margin-top:10;
+  }
+  
+  body{
+    margin: auto;
+    top:0px;
+    width:100%;
+    height:19px;
+    padding:25px 0px;
+    font-size:bold;
+    justify-content:space-between;
+    align-items:center;
+    
+  }
+  h2{
+    color:red;
+    font-weight:bold;
+  }
+  
+  .info{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+  }
+  
+  #howitworks{
+    margin: auto;
+    width: 30%;
+    position:right;
+    padding:  70px 0;
+    display: block;
+  }
+  
+  footer{padding:  70px 0;
+    display:block;
+    text-align: right;
+  }
+  .submit{
+    display: inline-block;
+    width:77px;
+  }
+  .submit:hover{
+    color:grey;
+    cursor:pointeur;
+  }
+  
+  @media(max-width:500xp){
+    body{
+      flex-wrap:wrap;
+    }
+  }
+  
+  .nav-link {
+    display: inline;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .email{
+    width:250px;
+  }
+  .submit{font-size:20px;
+    background-color:orange;
+    width:20%;
+    height:20PX;
+  }
+  * { font-size:large;
+          margin: 0;
+          padding: 0;
+          outline: 0;
+    box-sizing: border-box;       }
+      
+    body {
+        background-color: #eee;
+        font-family: 'Lato', sans-serif;
+  
+    }
+    .info {
+      margin-top: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+    
+      
+  
+  
+  .pricing-container {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: 10px;
+      border: 1px solid #000;
+      border-radius: 3px;
+    background-color:#f0f0f0;
+  }
+  
+  
+  .pricing-info {
+    
+    padding-bottom: 10px;
+    
+    text-align: center;
+    height: 300px;
+    width: 30%;
+    
+  }
+  
+  .pricing-box-heading {
+    background:#b4b4b4; 
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    opacity:0.8;
+  }
+  
+  .price-tag {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  footer {
+    margin-bottom:0px;
+      margin-top: 30px;
+      background-color: #ddd;
+      padding: 20px;
+    text-align:center;
+  }
+  .btn2{
+    
+    background-color:orange;
+  }
+  
